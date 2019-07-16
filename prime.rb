@@ -1,7 +1,9 @@
 def prime?(num)
- x=2 
+ x=2
+ result = true
   while x<num
-    result true if num%x==0
+    result = false if (num%x)==0
   x+=1
   end
+  return result
 end
